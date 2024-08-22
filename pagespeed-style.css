@@ -1,0 +1,150 @@
+/* General styles for the PageSpeed Insights data */
+.pagespeed-data {
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    box-sizing: border-box;
+    /* Include padding and border in element's total width */
+    overflow-x: auto;
+    /* Handle horizontal overflow */
+}
+
+/* Styles for headings */
+.pagespeed-data h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.pagespeed-data h3 {
+    font-size: 20px;
+    margin-top: 20px;
+    border-bottom: 2px solid #0073aa;
+    padding-bottom: 10px;
+}
+
+/* Grade and description styles */
+.pagespeed-data .grade-scale {
+    font-size: 24px;
+    font-weight: bold;
+    color: #0073aa;
+    margin-bottom: 10px;
+}
+
+.pagespeed-data .grade-scale.A {
+    color: #4CAF50;
+}
+
+/* Green for A */
+.pagespeed-data .grade-scale.B {
+    color: #8BC34A;
+}
+
+/* Light green for B */
+.pagespeed-data .grade-scale.C {
+    color: #FFC107;
+}
+
+/* Yellow for C */
+.pagespeed-data .grade-scale.D {
+    color: #FF9800;
+}
+
+/* Orange for D */
+.pagespeed-data .grade-scale.F {
+    color: #F44336;
+}
+
+/* Red for F */
+
+/* Form styles */
+#pagespeed-form {
+    margin-bottom: 20px;
+}
+
+#pagespeed-form label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+#pagespeed-form input[type="text"] {
+    width: 100%;
+    /* Adjust width to fit container */
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    box-sizing: border-box;
+    /* Include padding in width calculation */
+}
+
+#pagespeed-form button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    background-color: #0073aa;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 10px;
+    box-sizing: border-box;
+    /* Include padding in width calculation */
+}
+
+#pagespeed-form button:hover {
+    background-color: #005177;
+}
+
+/* Spinner styles */
+#pagespeed-spinner {
+    text-align: center;
+    margin: 20px 0;
+}
+
+/* Results styles */
+#pagespeed-results {
+    margin-top: 20px;
+}
+
+/* General audit styles */
+.pagespeed-data .audit {
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    background-color: #fff;
+    overflow-wrap: break-word;
+    /* Break long words to prevent overflow */
+}
+
+/* Audit title styles */
+.pagespeed-data .audit h4 {
+    font-size: 18px;
+    margin-top: 0;
+}
+
+/* Audit paragraph styles */
+.pagespeed-data .audit p {
+    margin: 5px 0;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+    .pagespeed-data {
+        padding: 10px;
+    }
+
+    #pagespeed-form input[type="text"],
+    #pagespeed-form button {
+        width: 100%;
+        box-sizing: border-box;
+        /* Ensure full-width elements include padding */
+    }
+
+    .pagespeed-data .audit {
+        padding: 10px;
+    }
+}
