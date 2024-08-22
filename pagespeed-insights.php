@@ -21,7 +21,7 @@ function pagespeed_insights_shortcode() {
     ob_start();
     ?>
     <div class="pagespeed-data">
-        <h2>PageSpeed Insights Data</h2>
+        <h2>Nfinite Performance Test</h2>
         <form method="post" id="pagespeed-form">
             <label for="url">Enter URL:</label>
             <input type="text" id="url" name="url" required>
